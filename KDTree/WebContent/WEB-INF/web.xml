@@ -13,6 +13,12 @@
     <servlet-name>QueryServlet</servlet-name>
     <servlet-class>changsi.test.QueryServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description>BuildKdTree</description>
+    <display-name>BuildKdTree</display-name>
+    <servlet-name>BuildKdTree</servlet-name>
+    <servlet-class>changsi.test.BuildKdTree</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>SetUpServlet</servlet-name>
     <url-pattern>/SetUpServlet</url-pattern>
@@ -20,5 +26,9 @@
   <servlet-mapping>
     <servlet-name>QueryServlet</servlet-name>
     <url-pattern>/query</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuildKdTree</servlet-name>
+    <url-pattern>/build</url-pattern>
   </servlet-mapping>
 </web-app>
