@@ -71,7 +71,7 @@ public class BuildKdTree extends HttpServlet {
 	    	tree.build(list);
 
 	        PrintWriter out = response.getWriter();
-	 		out.println("true");
+	 		out.println("1");
 	 		
 		}catch (Exception e){
 			
@@ -105,7 +105,7 @@ public class BuildKdTree extends HttpServlet {
 	    	tree.build(list);
 
 	        PrintWriter out = response.getWriter();
-	 		out.println("true");
+	 		out.println("finish building kd tree");
 	 		
 		}catch (Exception e){
 			

@@ -68,9 +68,9 @@ public class KdNode {
 	
 	public String toString(){
 		StringBuffer buffer = new StringBuffer();
-		buffer.append("{\"x\":"+this.x+",");
-		buffer.append("\"y\":"+this.y+",");
-		buffer.append("\"id\":"+this.id+"}");
+		buffer.append("{\"longitude\":"+this.x+",");
+		buffer.append("\"latitude\":"+this.y+",");
+		buffer.append("\"location_id\":"+this.id+"}");
 		return buffer.toString();
 	}
 
